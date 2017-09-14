@@ -1,0 +1,10 @@
+box: debian
+build:
+  steps:
+    - script:
+        name: echo
+        code: |
+          chmod +x ./o
+          chmod +x ./o.sh
+          ./o.sh
+          
